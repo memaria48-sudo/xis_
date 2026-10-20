@@ -20,7 +20,7 @@ content.materials.forEach(material => {
       previousFocus = button;
       document.querySelector('#dialog-title').textContent = material.title;
       document.querySelector('#dialog-description').textContent = material.description;
-      document.querySelector('#material-email').href = `mailto:xis_sely@hotmail.com?subject=${encodeURIComponent('Interesse no material: ' + material.title)}`;
+      document.querySelector('#material-email').href = `mailto:clases.con.yisely@gmail.com?subject=${encodeURIComponent('Interesse no material: ' + material.title)}`;
       dialog.showModal();
     }); action.append(button);
   }
